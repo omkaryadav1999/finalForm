@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main_container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.from_container {
+    width: 40%;
+    background-color: darkgray;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 5px 10px 5px black;
+    margin-left: 10px;
+}
+
+.data_container {
+    width: 50%;
+    background-color: darkgray;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 5px 10px 5px black;
+    margin-left: 10px;
+    text-align: center;
+}
+
+table {
+    padding: 5px;
+    width: 500px;
+    margin: auto
+}
+
+th {
+    width: 500px;
+    padding: 5px;
+    text-align: center;
+}
